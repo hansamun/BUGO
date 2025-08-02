@@ -57,7 +57,7 @@ export default function BugoWebsite() {
 
         <div className="flex items-center space-x-4">
           <Button className="bg-pink-500 hover:bg-pink-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
-            BUY BUGO 🪙
+            BUY BUGO
           </Button>
         </div>
       </nav>
@@ -162,27 +162,10 @@ export default function BugoWebsite() {
 
         <div className="flex items-center space-x-4">
           <Button className="bg-pink-500 hover:bg-pink-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow flex items-center">
-            BUY BUGO 🪙
+            BUY BUGO
           </Button>
         </div>
       </nav>
-
-      {/* Floating coins */}
-      <div className="absolute bottom-20 right-20 text-6xl animate-bounce" style={{ animationDelay: "0s" }}>
-        🪙
-      </div>
-      <div className="absolute bottom-32 right-40 text-4xl animate-bounce" style={{ animationDelay: "0.5s" }}>
-        🪙
-      </div>
-      <div className="absolute bottom-16 right-60 text-5xl animate-bounce" style={{ animationDelay: "1s" }}>
-        🪙
-      </div>
-      <div className="absolute bottom-40 right-80 text-3xl animate-bounce" style={{ animationDelay: "1.5s" }}>
-        🪙
-      </div>
-      <div className="absolute bottom-24 right-96 text-4xl animate-bounce" style={{ animationDelay: "2s" }}>
-        🪙
-      </div>
 
       {/* Main Content */}
       <div className="relative z-10 container mx-auto px-6 py-12">
@@ -199,7 +182,7 @@ export default function BugoWebsite() {
 
             {/* Buy Button */}
             <Button className="bg-pink-500 hover:bg-pink-600 text-white font-bold-caps px-8 py-4 rounded-full text-shadow flex items-center text-xl">
-              BUY BUGO 🪙
+              BUY BUGO
             </Button>
           </div>
 
@@ -223,10 +206,6 @@ export default function BugoWebsite() {
                   <div>
                     <h3 className="text-white font-bold-caps text-xl mb-2">TOTAL SUPPLY</h3>
                     <p className="text-white font-bold-caps text-2xl">1,000,000,000 $BUGO</p>
-                  </div>
-                  <div className="flex space-x-2">
-                    <span className="text-3xl">💵</span>
-                    <span className="text-3xl">💵</span>
                   </div>
                 </div>
               </div>
@@ -293,7 +272,7 @@ export default function BugoWebsite() {
 
         <div className="flex items-center space-x-4">
           <Button className="bg-black hover:bg-gray-800 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
-            BUY BUGO 🪙
+            BUY BUGO
           </Button>
         </div>
       </nav>
@@ -389,7 +368,7 @@ export default function BugoWebsite() {
             GO TO APE STORE
           </Button>
           <Button className="bg-black hover:bg-gray-800 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
-            BUY BUGO 🪙
+            BUY BUGO
           </Button>
         </div>
       </nav>
@@ -432,7 +411,7 @@ export default function BugoWebsite() {
               </div>
             </div>
 
-            <div className="lg:w-1/2 text-center lg:text-left relative">
+            <div className="lg:w-1/2 text-center lg:text-left">
               <h2 className="text-5xl md:text-7xl font-handwriting text-white mb-6 transform rotate-1 text-shadow-strong">
                 EXCHANGES
               </h2>
@@ -441,14 +420,6 @@ export default function BugoWebsite() {
                 <br />
                 on major exchanges.
               </p>
-
-              {/* Butterfly decorations */}
-              <div className="absolute -top-4 right-8 text-4xl animate-bounce" style={{ animationDelay: "0.5s" }}>
-                🦋
-              </div>
-              <div className="absolute top-32 -right-4 text-3xl animate-bounce" style={{ animationDelay: "1s" }}>
-                🦋
-              </div>
 
               <div className="flex justify-center lg:justify-start">
                 {/* APE STORE Card */}
