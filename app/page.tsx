@@ -28,7 +28,7 @@ export default function BugoWebsite() {
           <span className="text-white font-bold-caps text-xl">BUGO</span>
         </div>
 
-        <div className="flex items-center space-x-6 bg-pink-500 rounded-full px-8 py-4">
+        <div className="flex items-center space-x-6 bg-blue-500 rounded-full px-8 py-4">
           <button
             onClick={() => setCurrentSection("about")}
             className="text-white hover:text-yellow-300 font-menu text-sm transition-colors text-shadow"
@@ -56,7 +56,7 @@ export default function BugoWebsite() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button className="bg-pink-500 hover:bg-pink-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
             BUY BUGO
           </Button>
         </div>
@@ -82,12 +82,12 @@ export default function BugoWebsite() {
               <div className="space-y-6 text-white font-handwriting">
                 {/* Step 1 */}
                 <div className="space-y-2">
-                  <h3 className="text-xl text-yellow-300 font-bold">1. Get a Flare-compatible wallet</h3>
+                  <h3 className="text-xl text-yellow-300 font-bold">1. Get a Base-compatible wallet</h3>
                   <p className="text-lg leading-relaxed pl-4">
-                    Use <span className="text-yellow-200 underline">Bifrost wallet</span> or{" "}
+                    Use <span className="text-yellow-200 underline">Coinbase Wallet</span> or{" "}
                     <span className="text-yellow-200 underline">Metamask</span>
                     <br />
-                    and connect to the Flare network.
+                    and connect to the Base network.
                   </p>
                 </div>
 
@@ -105,7 +105,7 @@ export default function BugoWebsite() {
                   <p className="text-lg leading-relaxed pl-4">
                     Connect your wallet to APE STORE
                     <br />
-                    Select Tokens → Choose FLR/WFLR → Paste:
+                    Select Tokens → Choose ETH/WETH → Paste:
                   </p>
                   <div className="pl-4 mt-2">
                     <div className="bg-black/20 rounded p-2 border border-white/30">
@@ -133,7 +133,7 @@ export default function BugoWebsite() {
           <span className="text-white font-bold-caps text-xl">BUGO</span>
         </div>
 
-        <div className="flex items-center space-x-6 bg-pink-500 rounded-full px-8 py-4">
+        <div className="flex items-center space-x-6 bg-blue-500 rounded-full px-8 py-4">
           <button
             onClick={() => setCurrentSection("about")}
             className="text-white hover:text-yellow-300 font-menu text-sm transition-colors text-shadow"
@@ -161,7 +161,7 @@ export default function BugoWebsite() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button className="bg-pink-500 hover:bg-pink-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow flex items-center">
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow flex items-center">
             BUY BUGO
           </Button>
         </div>
@@ -181,7 +181,7 @@ export default function BugoWebsite() {
             </div>
 
             {/* Buy Button */}
-            <Button className="bg-pink-500 hover:bg-pink-600 text-white font-bold-caps px-8 py-4 rounded-full text-shadow flex items-center text-xl">
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold-caps px-8 py-4 rounded-full text-shadow flex items-center text-xl">
               BUY BUGO
             </Button>
           </div>
@@ -201,7 +201,7 @@ export default function BugoWebsite() {
 
             <div className="space-y-6">
               {/* Total Supply Card */}
-              <div className="bg-pink-500 rounded-lg p-6 relative overflow-hidden">
+              <div className="bg-blue-500 rounded-lg p-6 relative overflow-hidden">
                 <div className="flex items-center justify-between">
                   <div>
                     <h3 className="text-white font-bold-caps text-xl mb-2">TOTAL SUPPLY</h3>
@@ -211,7 +211,7 @@ export default function BugoWebsite() {
               </div>
 
               {/* Token Address Card */}
-              <div className="bg-pink-500 rounded-lg p-6">
+              <div className="bg-blue-500 rounded-lg p-6">
                 <h3 className="text-white font-bold-caps text-xl mb-4">TOKEN ADDRESS</h3>
                 <div className="bg-black/20 rounded p-3">
                   <code className="text-white font-mono text-sm break-all">{contractAddress}</code>
@@ -243,7 +243,7 @@ export default function BugoWebsite() {
           <span className="text-white font-bold-caps text-xl">BUGO</span>
         </div>
 
-        <div className="flex items-center space-x-6 bg-pink-500 rounded-full px-8 py-4">
+        <div className="flex items-center space-x-6 bg-blue-500 rounded-full px-8 py-4">
           <button
             onClick={() => setCurrentSection("about")}
             className="text-white font-menu text-sm transition-colors text-shadow bg-white/20 px-4 py-2 rounded-full"
@@ -299,9 +299,9 @@ export default function BugoWebsite() {
               <p className="text-shadow">
                 One day, while wandering through
                 <br />
-                the Flare fields, he found himself
+                the Base fields, he found himself
                 <br />
-                aboard the <span className="text-pink-400 font-bold">APE STORE</span> rocket.
+                aboard the <span className="text-blue-400 font-bold">APE STORE</span> rocket.
               </p>
 
               <p className="text-shadow">
@@ -315,7 +315,7 @@ export default function BugoWebsite() {
               <p className="text-2xl font-bold text-shadow">
                 BUGO is here. In space.
                 <br />
-                And on <span className="text-pink-400">APE STORE</span>.
+                And on <span className="text-blue-400">APE STORE</span>.
               </p>
             </div>
           </div>
@@ -325,7 +325,7 @@ export default function BugoWebsite() {
   )
 
   const renderHome = () => (
-    <div className="min-h-screen bg-gradient-to-br from-pink-500 to-pink-600 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-blue-600 relative overflow-hidden">
       {/* Navigation */}
       <nav className="relative z-10 flex items-center justify-between p-6">
         <div className="flex items-center space-x-2">
@@ -452,7 +452,7 @@ export default function BugoWebsite() {
           </div>
 
           <h3 className="text-4xl md:text-5xl font-handwriting text-white mb-8 transform -rotate-1 text-shadow-strong">
-            $FLR Maxi with a bearish grin.
+            $BASE Maxi with a bearish grin.
           </h3>
 
           <div className="flex justify-center space-x-8 mb-8">
@@ -475,7 +475,7 @@ export default function BugoWebsite() {
   )
 
   const renderDeviceChoice = () => (
-    <div className="min-h-screen bg-gradient-to-br from-pink-500 to-pink-600 flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center relative overflow-hidden">
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="grid md:grid-cols-2 gap-20 max-w-6xl mx-auto">
           {/* Desktop Option - Much Larger */}
