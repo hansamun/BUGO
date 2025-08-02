@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Rocket, Twitter, MessageCircle, Send, Globe } from "lucide-react"
+import { Twitter, MessageCircle, Send, Globe } from "lucide-react"
 
 export default function BugoWebsite() {
   const [currentSection, setCurrentSection] = useState("choice")
@@ -271,7 +271,7 @@ export default function BugoWebsite() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button className="bg-black hover:bg-gray-800 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
             BUY BUGO
           </Button>
         </div>
@@ -364,10 +364,6 @@ export default function BugoWebsite() {
 
         <div className="flex items-center space-x-4">
           <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
-            <Rocket className="w-4 h-4 mr-2" />
-            GO TO APE STORE
-          </Button>
-          <Button className="bg-black hover:bg-gray-800 text-white font-bold-caps px-6 py-3 rounded-full text-shadow">
             BUY BUGO
           </Button>
         </div>
@@ -376,9 +372,6 @@ export default function BugoWebsite() {
       {/* Hero Section */}
       <div className="relative z-10 container mx-auto px-6 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-6xl md:text-8xl font-bold-caps text-white mb-4 transform -rotate-2 text-shadow-strong">
-            BUGO
-          </h1>
           <p className="text-2xl text-white/90 font-handwriting text-shadow">
             The bear that brings the bull market! 🐻💰
           </p>
